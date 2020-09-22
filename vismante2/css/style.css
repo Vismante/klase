@@ -1,0 +1,46 @@
+section {
+	color: red;
+}
+
+article{
+	color:blue;
+}
+
+*{
+	text-align:center;
+}
+#promo{
+	background-color:blue;
+	color:pink;
+}
+.red{
+	background-color: red;
+}
+.tomato{
+	background-color: tomato;
+}
+.aqua{
+	background-color:aqua;
+}
+.center{
+	text-align: center;
+}
+.ad{
+	color:red;
+}
+
+a [href$=".pptx"]{
+	color:pink;
+}
+a[href$=".docx"]{
+	color:red;
+}
+a{
+	color: red;
+}
+a:hover{
+	color:blue;
+}
+ul :nth-child(2n+2){
+	background-color: aqua;
+}
